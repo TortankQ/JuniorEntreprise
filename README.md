@@ -20,7 +20,8 @@ NB :
 1. Des données de test sont présent dans les tables
 2. Pour utiliser le site avec une base de données non local. Remplacer dans le fichier FrontController.php:
 
-```	define("HOTE",     "Votre hote");
+```	    
+        define("HOTE",     "Votre hote");
     	define("BASE",     "Votre base");
     	define("LOGIN",    "Votre login");
     	define("PASSWORD", "Votre mot de passe");
