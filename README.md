@@ -2,6 +2,7 @@
 Projet de site web scolaire - Ozturk Tayfun/Frillici Julien/Ekinci Bilge
 
 Prérequis :
+
 -Un ordinateur
 -Le logiciel Wamp
 -Un éditeur de texte
