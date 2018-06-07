@@ -23,7 +23,8 @@ NB :
 ```	define("HOTE",     "Votre hote");
     	define("BASE",     "Votre base");
     	define("LOGIN",    "Votre login");
-    	define("PASSWORD", "Votre mot de passe");```
+    	define("PASSWORD", "Votre mot de passe");
+```
 
 Mise en place du site :
 1. Dans le répertoire C:\wamp64\www\Projets copier tout les fichiers et dossier present sur GitHub
