@@ -14,7 +14,7 @@ Installation base de données :
 4. Dans le menu de droite cliquer sur "Nouvelle base de données"
 5. Entrer junior dans le "Nom de base de données" puis cliquer sur créer
 6. cliquez sur l'onglet importer
-7. choisissez le fichier jeu_test.sql puis Exécuter
+7. choisissez le fichier jeu_test.sql dans le dossier Docs puis Exécuter
 
 NB : 
 1. Des données de test sont présent dans les tables
