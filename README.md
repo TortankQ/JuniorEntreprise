@@ -3,9 +3,9 @@ Projet de site web scolaire - Ozturk Tayfun/Frillici Julien/Ekinci Bilge
 
 Prérequis :
 
-*Un ordinateur
-*Le logiciel Wamp
-*Un éditeur de texte
+* Un ordinateur
+* Le logiciel Wamp
+* Un éditeur de texte
 
 Installation base de données :
 1. Lancer le logiciel Wamp
