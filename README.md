@@ -38,10 +38,10 @@ Vous pouvez créer d'autre compte dans "Gestion des utlisateurs" en vous connect
 Dans le jeu de test les comptes sont : 
 administrateur :
 
-login: test1234 
-mdp: toto
+* login: test1234 
+* mdp: toto
 
 utilisateur :
 
-login: tayfun
-mdp: test
+* login: tayfun
+* mdp: test
