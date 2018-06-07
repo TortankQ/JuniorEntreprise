@@ -28,7 +28,7 @@ NB :
 ```
 
 Mise en place du site :
-1. Dans le répertoire C:\wamp64\www\Projets copier tout les fichiers et dossier present sur GitHub
+1. Dans le répertoire C:\wamp64\www\Projets copier tout les fichiers et dossiers présent sur GitHub
 2. Dans votre navigateur entrer l'URL suivant : http://localhost/Projets/ 
 3. Le site est prêt.
 
