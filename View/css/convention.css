@@ -1,0 +1,37 @@
+
+body {
+    font-family: "Lato",  opensans,  sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.0em;
+    letter-spacing: 0.07em;
+    background: #F5F5F5;
+    color: #2F4F4F;
+    min-width: 100%;
+
+}
+
+body a {
+	text-decoration: none;
+	color: #2F4F4F;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+h2 {
+    color : red;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+h3 {
+     line-height: 50px;
+}
+
+#convention {
+    margin : 20px;
+    justify-content: flex-start;
+    display: inline-block;
+}
