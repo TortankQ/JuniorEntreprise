@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule	^foo.html$	test.html	[L]	
+RewriteRule ^Controller/css/convention.css	View/css/convention.css	[L] 
+RewriteRule ^Controller/css/header.css	View/css/header.css	[L] 
+RewriteRule ^Controller/src/logo.png	View/src/logo.png	[L]
