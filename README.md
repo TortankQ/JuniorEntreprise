@@ -36,6 +36,7 @@ Compte sur le site :
 Vous pouvez créer d'autre compte dans "Gestion des utlisateurs" en vous connectant en administrateur.
 
 Dans le jeu de test les comptes sont : 
+
 administrateur :
 
 * login: test1234 
