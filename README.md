@@ -16,8 +16,9 @@ Installation base de données :
 6. cliquez sur l'onglet importer
 7. choisissez le fichier jeu_test.sql puis Exécuter
 
-NB : 	1. Des données de test sont présent dans les tables
-	2. Pour utiliser le site avec une base de données non local.
+NB : 
+1. Des données de test sont présent dans les tables
+2. Pour utiliser le site avec une base de données non local.
 	Remplacer dans le fichier FrontController.php:
 	define("HOTE",     "Votre hote");
     	define("BASE",     "Votre base");
