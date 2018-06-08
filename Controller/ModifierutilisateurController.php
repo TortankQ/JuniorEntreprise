@@ -25,7 +25,7 @@
                 
                 
                 $testCompte = $daoCompte->modifierCompte($_POST['username'],$_POST['password']);
-                var_dump($testCompte);
+                //var_dump($testCompte);
                 if(isset($testCompte)){
                     echo "compte modifié";
                 }else{
