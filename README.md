@@ -8,13 +8,13 @@ Projet de site web scolaire - Ozturk Tayfun/Frillici Julien/Ekinci Bilge
 * Un éditeur de texte
 
 ## Installation base de données
-1. Lancer le logiciel Wamp
+1. Lancez le logiciel Wamp
 2. Rendez-vous sur votre navigateur et entrer l'URL suivant : http://localhost/phpmyadmin/
-3. Entrer vos identifiants (local : login = root, pas de mot de passe) pour la base de données
+3. Entrez vos identifiants (local : login = root, pas de mot de passe) pour la base de données
 4. Dans le menu de droite cliquer sur "Nouvelle base de données"
-5. Entrer junior dans le "Nom de base de données" puis cliquer sur créer
-6. cliquez sur l'onglet importer
-7. choisissez le fichier jeu_test.sql dans le dossier Docs puis Exécuter
+5. Entrez junior dans le "Nom de base de données" puis cliquer sur créer
+6. Cliquez sur l'onglet importer
+7. Choisissez le fichier jeu_test.sql dans le dossier Docs puis Exécuter
 
 ###### NB : 
 1. Des données de test sont présent dans les tables
