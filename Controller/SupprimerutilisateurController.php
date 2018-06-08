@@ -24,7 +24,7 @@
             $testCompte = $daoCompte->supprimerCompte($_POST['username']);
                 
             if($testCompte){
-                echo "compte supprimé";
+                echo "Compte supprimé avec succès";
             }else{
                 echo "L'identifiant n'existe pas";
             }          

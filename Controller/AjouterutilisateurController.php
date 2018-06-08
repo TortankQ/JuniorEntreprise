@@ -36,7 +36,7 @@
                 $testCompte = $daoCompte->verifieCompte($_POST['username'],$_POST['password']);
                 
                 if(isset($testCompte)){
-                    echo "compte crée";
+                    echo "Compte créé avec succès";
                 }
                 
             }else{
