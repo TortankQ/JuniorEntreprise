@@ -97,9 +97,9 @@ class DaoConvention
                 echo '<td>'.$data['Signature'].'</td>';
                 echo '<td>'.$data['Commentaire'].'</td>';
 
-                echo'<td><a href="ConsultermodifierediterconventionController.php?btn=Consulter&numConvention='.$data['NumConvention'].'">Consulter</a></td>';
-                echo'<td><a href="ConsultermodifierediterconventionController.php?btn=Modifer&numConvention='.$data['NumConvention'].'">Modifier</a></td>';
-                echo'<td><a href="ConsultermodifierediterconventionController.php?btn=Editer&numConvention='.$data['NumConvention'].'">Editer</a></td>';
+               // echo'<td><a href="ConsultermodifierediterconventionController.php?btn=Consulter&numConvention='.$data['NumConvention'].'">Consulter</a></td>';
+               // echo'<td><a href="ConsultermodifierediterconventionController.php?btn=Modifer&numConvention='.$data['NumConvention'].'">Modifier</a></td>';
+               // echo'<td><a href="ConsultermodifierediterconventionController.php?btn=Editer&numConvention='.$data['NumConvention'].'">Editer</a></td>';
             
             echo'</tr>';
             /*
