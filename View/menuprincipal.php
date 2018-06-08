@@ -1,9 +1,11 @@
-
+<h2>Menu Principal</h2>
+<br/>
 <div>
     <form id="gestionConvention" method="POST" action="../Controller/MenugestionconventionController.php">
         <button type="submit" name="btnGestionConvention">Gestion des conventions</button>
     </form>
 </div>
+<br/><br/>
 <!--
 <div>
     <form id="gestionFacture" method="POST" action="../Controller/MenugestionfactureController.php">
@@ -17,6 +19,7 @@
         <button type="submit" name="btnGestionUtilisateur">Gestion des utilisateurs</button>
     </form>
 </div>
+<br/><br/>
 <?php endif; ?>
 <div>
     <form id="deconnexion" method="POST" action="../Controller/FrontController.php">

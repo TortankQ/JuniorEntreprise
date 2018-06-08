@@ -1,3 +1,4 @@
+<h2>Créer ma convention</h2>
 
    <div id="layout_under_header">&nbsp;
     <form id="convention" method="POST"  action="../Controller/CreationconventionController.php" >
@@ -64,12 +65,13 @@
         </div>
 
     </form>
-    
+    <br/>
     <div>
         <form id="retour" method="POST" action="../Controller/MenugestionconventionController.php">
             <button type="submit" name="btnRetour">Retour</button>
         </form>
     </div>
+    <br/>
     <div>
         <form id="deconnexion" method="POST" action="../Controller/FrontController.php">
             <button type="submit" name="btnDeconnexion">Déconnexion</button>

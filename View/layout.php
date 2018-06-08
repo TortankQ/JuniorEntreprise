@@ -9,14 +9,14 @@
         <link rel="stylesheet" href="css/footer.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        
+                
         <title>Junior Entreprise - <?=$page?></title>
     </head>
+    <header>
+        <?php include('nav.php'); ?>
+    </header> 
     <body>
-        <?=$erreur?>
-        
-        <?php include('nav.php'); ?> 
+        <?=$erreur?>     
         <br/><br/>
         <?php include($page.'.php'); ?> 
     </body>

@@ -9,6 +9,7 @@ body {
     color: #2F4F4F;
     min-width: 100%;
 
+
 }
 
 body a {
@@ -17,13 +18,11 @@ body a {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
+    
+    
 }
 
 h2 {
-    color : red;
-    padding: 20px;
-    padding-bottom: 0px;
 }
 
 h3 {
