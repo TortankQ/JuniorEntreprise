@@ -1,9 +1,9 @@
 <h2>Ajouter un utilisateur</h2>
 <div>
     <form id="ajouterUtilisateur" method="POST" action="../Controller/AjouterutilisateurController.php">
-        <label for="identifiant">Identifiant</label>
+        <label for="identifiant">Identifiant : </label>
         <input type="user" name="username" placeholder="Identifiant">
-        <label for="password">Mot de Passe</label>
+        <label for="password">    Mot de Passe : </label>
         <input type="password" class="form-control" name="password" placeholder="Mot de passe">
         <input type="checkbox" class="form-control" name="administrateur" value="true">Administrateur
         <br/><br/>

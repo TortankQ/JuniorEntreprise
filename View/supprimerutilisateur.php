@@ -1,4 +1,5 @@
 <h2>Supprimer un utilisateur</h2>
+<br/><br/>
 <div>
     <form id="supprimerUtilisateur" method="POST" action="../Controller/SupprimerutilisateurController.php">
         <label for="identifiant">Identifiant : </label>

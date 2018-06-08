@@ -12,12 +12,15 @@
                 
         <title>Junior Entreprise - <?=$page?></title>
     </head>
-    <header>
-        <?php include('nav.php'); ?>
-    </header> 
+    
     <body>
+        <header>
+        <?php include('nav.php'); ?>
+        </header> 
         <?=$erreur?>     
         <br/><br/>
-        <?php include($page.'.php'); ?> 
+        <div id="corps">
+            <?php include($page.'.php'); ?> 
+        </div>
     </body>
 </html>

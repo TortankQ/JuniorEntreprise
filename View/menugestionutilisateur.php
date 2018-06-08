@@ -1,4 +1,5 @@
 <h2>Menu Gestion Utilisateur</h2>
+<br/><br/>
 <div>
     <form id="ajouterUtilisateur" method="POST" action="../Controller/AjouterutilisateurController.php">
         <button type="submit" name="btnAjouterUtilisateur">Ajouter utilisateur</button>
@@ -16,7 +17,7 @@
         <button type="submit" name="btnSupprimerutilisateur">Supprimer utilisateur</button>
     </form>
 </div>
-<br/><br/>
+<br/><br/><br/><br/>
 <div>
    <form id="retour" method="POST" action="../Controller/MenuprincipalController.php">
         <button type="submit" name="btnRetour">Retour</button>

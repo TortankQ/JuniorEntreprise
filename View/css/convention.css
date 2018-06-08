@@ -12,22 +12,31 @@ body {
 
 }
 
+#corps {
+    padding-left: 20px;
+    margin : 50px;
+    /*border-style: solid;
+    border-width : 2px;
+    border-radius: 10px;*/
+    justify-content: center;
+}
+
 body a {
 	text-decoration: none;
 	color: #2F4F4F;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     
     
-}
-
-h2 {
 }
 
 h3 {
      line-height: 50px;
+     font-size : 15px;
+     font-style : italic;
+     font-weight: lighter;
 }
+
 
 #convention {
     margin : 20px;

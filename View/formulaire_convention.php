@@ -2,13 +2,15 @@
 
    <div id="layout_under_header">&nbsp;
     <form id="convention" method="POST"  action="../Controller/CreationconventionController.php" >
-       <input type="text" id="nomProjet" name="nomProjet" placeholder="Nom Projet" />
+        <h3>Les champs marqués d'un astérisque * sont obligatoires</h3>
+       <input type="text" id="nomProjet" name="nomProjet" placeholder="Nom Projet*" />
        <br/><br/>
        <br/>
         <div>
-            <input type="text" id="clientname" name="nomClient" placeholder="Nom client" />
+            <h4>Le client</h4>
+            <input type="text" id="clientname" name="nomClient" placeholder="Nom client*" />
             <input type="text" id="clientMail" name="clientMail" placeholder="Mail" />
-            <input type="text" id="clientTel" name="clientTel" placeholder="Tél" />
+            <input type="text" id="clientTel" name="clientTel" placeholder="Tél*" />
             <input type="number" id="siretnumber" name="numSiret" placeholder="N° Siret" />
         </div>
         <br/><br/>
@@ -20,17 +22,19 @@
         <br/><br/>
      
         <div>
+            <h4>Les collaborateurs</h4>
             <span id="zoneCollab">
-                <input type="text" id="collaborateurNom1" name="collaborateurNom1" placeholder="Nom Collaborateur" />
-                <input type="text" id="collaborateurPrenom1" name="collaborateurPrenom1" placeholder="Prénom Collaborateur" />
+                <input type="text" id="collaborateurNom1" name="collaborateurNom1" placeholder="Nom Collaborateur*" />
+                <input type="text" id="collaborateurPrenom1" name="collaborateurPrenom1" placeholder="Prénom Collaborateur*" />
                 
             </span>
             <input type="button" id="btnPlusCollab" onclick="addCollab()" name="btnPlusCollab" value="+"/>
         </div>
         <br/><br/>
 
+        <h4>Les tâches</h4>
         <div id="zoneTache">
-            <input type="text" id="intituletache1" name="intituletache1" placeholder="Intitule tâche" />
+            <input type="text" id="intituletache1" name="intituletache1" placeholder="Intitule tâche*" />
             <input type="number" id="quantite1" name="quantite1" onchange = "calculTotalHT()" placeholder="Qté" />
             <input type="number" id="prixht1" name="prixht1" onchange = "calculTotalHT()" placeholder="Prix HT" />
             <input type="button" id="btnPlusTache" onclick="addTache()" name="btnPlusTache" value="+"/>
@@ -48,8 +52,8 @@
 
         <div>
           <input type="number" id="accompte" name="accompte" placeholder="Accompte" />
-           Date début : <input type="date" id="datedebut" name="dateDebut" min="<?php echo date('Y-m-d');?>" placeholder="Date début" />
-           Date fin : <input type="date" id="dateFin" name="dateFin" min="<?php echo date('Y-m-d');?>" placeholder="Date fin" />
+           Date début : <input type="date" id="datedebut" name="dateDebut" min="<?php echo date('Y-m-d');?>" placeholder="Date début*" />
+           Date fin : <input type="date" id="dateFin" name="dateFin" min="<?php echo date('Y-m-d');?>" placeholder="Date fin*" />
         </div>
         <br/><br/>
         <div>
@@ -65,7 +69,7 @@
         </div>
 
     </form>
-    <br/>
+    <br/><br/><br/>
     <div>
         <form id="retour" method="POST" action="../Controller/MenugestionconventionController.php">
             <button type="submit" name="btnRetour">Retour</button>
