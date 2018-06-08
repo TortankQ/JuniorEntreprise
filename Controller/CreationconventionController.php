@@ -117,6 +117,8 @@
                                  
                                 gererTache($dtoConvention);
                                  
+                                 
+                                echo "Convention crée | Numéro Convention: ".$dtoConvention->getNumConvention();
 //                                $daoAffectation = new DaoAffectation($_SESSION['hote'],$_SESSION['base'],$_SESSION['login'],$_SESSION['password']);
 //                                 
 //                                for($i = 0; $i<$arrayCollab;$i++){
@@ -146,6 +148,8 @@
                                 $daoConvention->insertTabConvention($dtoConvention);
                                 $_SESSION['dtoConvention']=$dtoConvention;
                                 gererTache($dtoConvention);
+                                 
+                                echo "Convention crée | Numéro Convention: ".$dtoConvention->getNumConvention();
                                  
 //                                 $daoAffectation = new DaoAffectation($_SESSION['hote'],$_SESSION['base'],$_SESSION['login'],$_SESSION['password']);
 //                                 
