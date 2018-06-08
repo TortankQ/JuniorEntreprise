@@ -46,7 +46,7 @@
     }
 
     if(isset($_POST['btnRechercher'])){
-        var_dump($_POST);
+        //var_dump($_POST);
         if(isset($_POST['numeroConvention']) && $_POST['numeroConvention']!=""){
             $affichage = 1;
             $numConvention = $_POST['numeroConvention'];
